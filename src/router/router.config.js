@@ -19,16 +19,28 @@ export const constantRouterMap = [
         meta: { title: '首页', keepAlive: false, footer: true }
       },
       {
-        path: '/about',
-        name: 'About',
-        component: () => import('@/views/home/About'),
-        meta: { title: '关于我', keepAlive: false, footer: true, auth: true }
+        path: '/find',
+        name: 'Find',
+        component: () => import('@/views/find/Find'),
+        meta: { title: '发现', keepAlive: false, footer: true, auth: true }
       },
       {
-        path: '/login',
-        name: 'Login',
-        component: () => import('@/views/home/Login'),
-        meta: { title: '登录', footer: true, keepAlive: false }
+        path: '/contacts',
+        name: 'Contacts',
+        component: () => import('@/views/contacts/Contacts'),
+        meta: { title: '人脉', keepAlive: false, footer: true, auth: true }
+      },
+      {
+        path: '/operating',
+        name: 'Operating',
+        component: () => import('@/views/operating/Operating'),
+        meta: { title: '服务台', keepAlive: false, footer: true, auth: true }
+      },
+      {
+        path: '/me',
+        name: 'Me',
+        component: () => import('@/views/me/Me'),
+        meta: { title: '我的', footer: true, keepAlive: false }
       }
     ]
   }

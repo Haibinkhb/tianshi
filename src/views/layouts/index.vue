@@ -37,28 +37,28 @@ export default {
         {
           title: '发现',
           to: {
-            name: 'About'
+            name: 'Find'
           },
           icon: 'user-o'
         },
         {
           title: '服务台',
           to: {
-            name: 'Login'
+            name: 'Operating'
           },
           icon: 'chat-o'
         },
         {
           title: '人脉',
           to: {
-            name: 'Login'
+            name: 'Contacts'
           },
           icon: 'chat-o'
         },
         {
           title: '我的',
           to: {
-            name: 'Login'
+            name: 'Me'
           },
           icon: 'chat-o'
         }

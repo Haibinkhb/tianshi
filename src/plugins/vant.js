@@ -12,13 +12,16 @@ import {
   Popup,
   Icon,
   Image as VanImage,
-  Lazyload
+  Lazyload,
+  Search,
+  NoticeBar
 } from 'vant'
 
 Vue.use(Lazyload, {
   lazyComponent: true
 })
-
+Vue.use(NoticeBar)
+Vue.use(Search)
 Vue.use(Button)
 Vue.use(Cell)
 Vue.use(List)
