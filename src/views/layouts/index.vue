@@ -1,10 +1,12 @@
 <template>
   <div class="app-container">
     <div class="layout-content">
-      <keep-alive v-if="$route.meta.keepAlive">
-        <router-view></router-view>
-      </keep-alive>
-      <router-view v-else></router-view>
+      <transition>
+        <keep-alive v-if="this.$route.meta.keepAlive">
+          <router-view></router-view>
+        </keep-alive>
+        <router-view v-else></router-view>
+      </transition>
     </div>
     <div class="layout-footer" v-if="footer">
       <van-tabbar route>

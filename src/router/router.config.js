@@ -22,7 +22,13 @@ export const constantRouterMap = [
         path: '/find',
         name: 'Find',
         component: () => import('@/views/find/Find'),
-        meta: { title: '发现', keepAlive: false, footer: true, auth: true }
+        meta: { title: '发现', keepAlive: true, footer: true, auth: true }
+      },
+      {
+        path: '/videoplay',
+        name: 'videoplay',
+        component: () => import('@/components/video/Video'),
+        meta: { title: '视频播放', keepAlive: false, footer: false, auth: false }
       },
       {
         path: '/contacts',
