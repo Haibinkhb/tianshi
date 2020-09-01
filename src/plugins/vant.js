@@ -18,11 +18,7 @@ import {
   Lazyload,
   Search,
   NoticeBar,
-  Tab,
-  Tabs,
-  Grid,
-  GridItem,
-  Progress
+  
 } from 'vant'
 
 Vue.use(Lazyload, {
@@ -38,9 +34,3 @@ Vue.use(VanImage)
 Vue.use(Tabbar).use(TabbarItem)
 Vue.use(Popup)
 Vue.use(Swipe, Toast).use(SwipeItem)
-Vue.use(Tab)
-Vue.use(Tabs)
-Vue.use(VideoPlayer)
-Vue.use(Grid)
-Vue.use(GridItem)
-Vue.use(Progress)
