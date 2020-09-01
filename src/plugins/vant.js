@@ -18,7 +18,7 @@ import {
   Lazyload,
   Search,
   NoticeBar,
-  
+
 } from 'vant'
 
 Vue.use(Lazyload, {
