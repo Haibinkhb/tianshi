@@ -7,7 +7,24 @@ body .app {
   font-family: Arial, Helvetica, 'STHeiti STXihei', 'Microsoft YaHei', Tohoma, sans-serif;
   background-color: $background-color;
 }
+p,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding:0
+}
 
+.clearfix:after{
+  content: "";
+  display: block;
+  height: 0;
+  clear:both;
+  visibility: hidden;
+}
+.f-l{
+   float:left
+}
+.f-r{
+  float:right
+}
 .app-container {
   padding-bottom: 50px;
 }
