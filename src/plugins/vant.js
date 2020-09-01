@@ -18,12 +18,15 @@ import {
   Lazyload,
   Search,
   NoticeBar,
-
+  Divider,
+  NavBar,
+  Tab, Tabs, Grid, GridItem
 } from 'vant'
 
 Vue.use(Lazyload, {
   lazyComponent: true
 })
+
 Vue.use(NoticeBar)
 Vue.use(Search)
 Vue.use(Button)
@@ -34,3 +37,12 @@ Vue.use(VanImage)
 Vue.use(Tabbar).use(TabbarItem)
 Vue.use(Popup)
 Vue.use(Swipe, Toast).use(SwipeItem)
+Vue.use(Divider)
+
+
+//陈
+Vue.use(Tab);
+Vue.use(Tabs);
+Vue.use(NavBar);
+Vue.use(Grid);
+Vue.use(GridItem);
