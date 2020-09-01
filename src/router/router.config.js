@@ -53,7 +53,13 @@ export const constantRouterMap = [
         name: 'MyPromotion',
         component: () => import('@/views/me/MyPromotion'),
         meta: { title: '我的推广', keepAlive: false }
-      }
+      },
+      {
+        path: '/MyDetails',
+        name: 'MyDetails',
+        component: () => import('@/views/me/MyDetails'),
+        meta: { title: '服务台', keepAlive: false, footer: false, auth: true }
+      },
     ]
   }
 ]

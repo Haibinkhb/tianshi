@@ -3,7 +3,14 @@
     <div class="my-header">
       <div class="my-header-content">
         <div class="my-header-left">
-          <van-image round width="90" height="75" :src="user.photo" fit="cover" />
+          <van-image
+            @click="goDetails()"
+            round
+            width="90"
+            height="75"
+            :src="user.photo"
+            fit="cover"
+          />
         </div>
         <div class="my-header-middle">
           <div>{{user.name}}</div>
@@ -114,6 +121,13 @@ export default {
           registerMoney: '100元/天'
         }
       ]
+    }
+  },
+  methods: {
+    goDetails() {
+      this.$router.push({
+        path: '/MyDetails'
+      })
     }
   }
 }

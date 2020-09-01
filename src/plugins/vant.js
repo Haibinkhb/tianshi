@@ -16,14 +16,17 @@ import {
   Search,
   NoticeBar,
   Divider,
-  NavBar
+  NavBar,
+
+
+  //陈
+  Tab, Tabs, Grid, GridItem
 } from 'vant'
 
 Vue.use(Lazyload, {
   lazyComponent: true
 })
-Vue.use(NoticeBar)
-Vue.use(Search)
+
 Vue.use(Button)
 Vue.use(Cell)
 Vue.use(List)
@@ -33,4 +36,11 @@ Vue.use(Tabbar).use(TabbarItem)
 Vue.use(Popup)
 Vue.use(Swipe, Toast).use(SwipeItem)
 Vue.use(Divider)
-Vue.use(NavBar)
+
+
+//陈
+Vue.use(Tab);
+Vue.use(Tabs);
+Vue.use(NavBar);
+Vue.use(Grid);
+Vue.use(GridItem);
