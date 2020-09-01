@@ -14,7 +14,9 @@ import {
   Image as VanImage,
   Lazyload,
   Search,
-  NoticeBar
+  NoticeBar,
+  Divider,
+  NavBar
 } from 'vant'
 
 Vue.use(Lazyload, {
@@ -30,3 +32,5 @@ Vue.use(VanImage)
 Vue.use(Tabbar).use(TabbarItem)
 Vue.use(Popup)
 Vue.use(Swipe, Toast).use(SwipeItem)
+Vue.use(Divider)
+Vue.use(NavBar)

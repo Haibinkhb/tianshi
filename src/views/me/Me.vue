@@ -51,21 +51,21 @@
     </div>
     <div class="my-footer">
       <van-cell icon="cash-on-deliver" title="我的钱包" is-link to="home" />
-      <van-cell icon="shop-o" title="我的推广" is-link to="home" />
-      <van-divider :style="{height:'10px'}" />
+      <van-cell icon="shop-o" title="我的推广" is-link to="myPromotion" />
+      <div :style="{height:'10px'}"></div>
       <van-cell icon="star-o" title="我的收藏" is-link to="index" />
-      <van-divider :style="{height:'10px'}" />
+      <div :style="{height:'10px'}"></div>
       <van-cell icon="info-o" title="关于学院" is-link to="index" />
-      <van-divider :style="{height:'10px'}" />
+      <div :style="{height:'10px'}"></div>
       <van-cell icon="shop-o" title="我的院籍" is-link to="index" />
       <van-cell icon="shop-o" title="实名认证" is-link to="index" />
-      <van-divider :style="{height:'10px'}" />
+      <div :style="{height:'10px'}"></div>
       <van-cell icon="shop-o" title="我的客服" is-link to="index" />
-      <van-divider :style="{height:'10px'}" />
+      <div :style="{height:'10px'}"></div>
       <van-cell icon="setting-o" title="系统设置" is-link to="index" />
-      <van-divider :style="{height:'10px'}" />
+      <div :style="{height:'10px'}"></div>
       <van-cell icon="shop-o" title="关于设置" is-link to="index" />
-      <van-divider :style="{height:'10px'}" />
+      <div :style="{height:'10px'}"></div>
       <van-button
         :style="{height:'60px',border:'none',fontSize:'18px'}"
         icon="https://img.yzcdn.cn/vant/user-active.png"
